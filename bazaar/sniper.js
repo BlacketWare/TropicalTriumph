@@ -48,7 +48,7 @@
   if (isNaN(snipeAmt)) return alert("That isn't a number.");
   if (snipeInterval < 1) return alert(`Please keep the snipe interval above 1 to avoid ruining Blacket servers.`);
   
-  alert("Press \\ to toggle the sniper.\nThe sniper will log to the console when it buys an item.");
+  alert("Press \\ to toggle the sniper.\nThe sniper will log to the console when it buys an item.\n\nthanks to zastix for creation of this tool :)");
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "\\") {
